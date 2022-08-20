@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Greens Kiosk</title>
+</head>
+<style>
+     body{
+        background-image: url('black.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: bisque;
+     }
+     #paragraph{
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     h3{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif; 
+     }
+     .container{
+       display: flex;
+       justify-content: space-evenly;
+     }
+     
+</style>
+<body>
+   <h1 id="title">Welcome to Greens Kiosk</h1>
+   <p id="paragraph">We sell fruits and vegetables</p>
+   <div class="container">
+    <div class="product">
+   <h3>Products</h2>
+   <!-- <button id="button" onclick="displayElements()">Click</button> -->
+   <ul id="products">
+       <!-- Show products list from API -->
+   </ul>
+</div>
+ <div class="fruits">
+   <h3>Fruits</h3>
+   <ul id="fruList">
+       <!-- Show fruits from API -->
+   </ul>
+</div>
+<div class="vegetables">
+   <h3>Vegetables</h3>
+   <ul id="vegList">
+       <!-- Show vegetables from API -->
+   </ul>
+</div>
+   </div>
+</body>
+<script src="kiosk.js"></script>
+<!-- <script src="server.js"></script> -->
+<!-- <script src="GreensKiosk.js"></script> -->
+</html>
